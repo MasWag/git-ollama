@@ -36,7 +36,7 @@
 ######################################
 
 # Default settings
-MODEL="mistral"
+MODEL="gemma3"
 AMEND=false
 
 usage() {
@@ -46,7 +46,7 @@ Usage: $0 [--model <model>] [-m <model>] [--amend] [--help|-h]
 Automatically generate a commit message using ollama.
 
 Options:
-  -m, --model <model>    Specify the model to use (default: mistral)
+  -m, --model <model>    Specify the model to use (default: gemma3)
       --amend            Amend the previous commit with the generated message.
   -h, --help             Display this help message and exit.
 EOF
